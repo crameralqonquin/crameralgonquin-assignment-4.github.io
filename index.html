@@ -1,32 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="A page used to convert Fahrenheit to Celcius">
-      <meta name="keywords" content="Temperature, Celcius, Fahrenheit, Conversion">
-      <meta name="robots" content="index, follow">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-         <!-- Link to CSS and JS -->
-         <link rel="stylesheet" href="style.css"> 
-         <script type="text/javascript" src="script.js"></script>
-
-         <!-- Icon -->
-         <link rel="icon" type="image/x-icon" href="temp.png">
-
-         <!-- Title -->
-         <title>Temperature Converter</title>
-
-         <form id="tempCalc" onsubmit="calculateTemp(); return false">
-         <label for="temp">Temperature Conversion Page</label><br>
-         <input name="temp" id="temp" type="number"> 
-         <select name="temp_diff" id="temp_diff">
-         <option value="1">Enter a temperature in degrees Celsius</option>
-         <option value="2">Enter a temperature in degrees Fahrenheit</option>
-      </select> <br>
-   <input name="temp" type="submit"> <br>
-   <span id="resultContainer"></span>
-</form>
-</footer>
-<h2 style="text-align: center;"> A.C. - 17-04-2023</h2>
-<footer>
+        <meta charset="UTF-8">
+        <meta name="description" content="A page used to convert Fahrenheit to Celcius">
+        <meta name="keywords" content="Temperature, Celcius, Fahrenheit, Conversion">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO elements -->
+        <link rel="stylesheet" href="style.css"> 
+        <script type="text/javascript" src="script.js"></script>
+        <!-- link to CSS and JS -->
+        <link rel="icon" type="image/x-icon" href="temp.png">
+        <!-- icon -->
+    </head>
+    <body>
+        <title>My Temperature Converter</title>
+        <!-- title -->
+        <main>
+        <!-- main -->
+        <img src="temp2.png" border="0" width="300" height="300" />
+        <form id="tempCalc" onsubmit="calculateTemp(); return false">
+            <label for="temp">Temperature Conversion Page</label><br>
+            <input name="temp" id="temp" type="number"> 
+            <select name="temp_diff" id="temp_diff">
+            <option value="1">Enter a temperature in degrees Celsius</option>
+            <option value="2">Enter a temperature in degrees Fahrenheit</option>
+        </select> <br>
+        <input name="temp" type="submit"> <br>
+        <span id="resultContainer"></span>
+        </form>
+    </head>
+</html>
